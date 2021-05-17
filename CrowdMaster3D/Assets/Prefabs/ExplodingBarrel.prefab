@@ -13,13 +13,13 @@ GameObject:
   - component: {fileID: 8154685149294489}
   - component: {fileID: 1823706305091137255}
   - component: {fileID: 8469985185924165763}
-  - component: {fileID: -8715370815996608499}
+  - component: {fileID: 7279974979269776355}
   m_Layer: 0
-  m_Name: Barrel
+  m_Name: ExplodingBarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &25240904834928361
 Transform:
@@ -114,7 +114,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 87e15378adbdf5f419f53c072bf97b50, type: 3}
---- !u!114 &-8715370815996608499
+--- !u!114 &7279974979269776355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,6 +123,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 21888057620302551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b588ea68634684daf1efbf3e0e5f41, type: 3}
+  m_Script: {fileID: 11500000, guid: e1e9d0fdc97d25d469afb0c26ae9966e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _explosionRadius: 0
+  _explosionForce: 0

@@ -29,5 +29,10 @@ public class Shuriken : MonoBehaviour
             Destroy(shuriken.gameObject);
             Destroy(gameObject);
         }
+        else if (collision.gameObject.TryGetComponent(out IDamageable damageable))
+        {
+            damageable.ApplyDamage(Rigidbody, Rigidbody.velocity.magnitude);
+            Destroy(gameObject);
+        }
     }
 }

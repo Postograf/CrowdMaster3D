@@ -14,17 +14,17 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogMode: 2
+  m_FogDensity: 0.05
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 0.9098039, b: 0.8392157, a: 1}
+  m_AmbientEquatorColor: {r: 0.41960785, g: 0.4392157, b: 0.36078432, a: 1}
+  m_AmbientGroundColor: {r: 0.11372549, g: 0.1254902, b: 0.13333334, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -2340,11 +2340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 21888057620302551, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_Name
-      value: Barrel
-      objectReference: {fileID: 0}
-    - target: {fileID: 21888057620302551, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
+      value: ExplodingBarrel
       objectReference: {fileID: 0}
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_RootOrder
@@ -2352,7 +2348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.58
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2360,7 +2356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.43
+      value: 2.94
       objectReference: {fileID: 0}
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2389,6 +2385,14 @@ PrefabInstance:
     - target: {fileID: 25240904834928361, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279974979269776355, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
+      propertyPath: _explosionForce
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279974979269776355, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
+      propertyPath: _explosionRadius
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2405893793b7164f92b3f47d4871e11, type: 3}
@@ -3819,7 +3823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transitions:
   - {fileID: 4622436086925492543}
-  _attackDamage: 10
+  _attackDamage: 0
   _attackDelay: 1
 --- !u!1 &4622438312859436608
 GameObject:
