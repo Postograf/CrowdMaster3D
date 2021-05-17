@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e96dac0d5a9949468d82d10b1ae0b30, type: 3}
+  m_Name: UltimateShuriken
+  m_EditorClassIdentifier: 
+  _shurikenPrefab: {fileID: 8092375092517942018, guid: e0bf26f5a578a6b489ac528a908e2883, type: 3}
+  _tossForce: 30
+  _shurikenScale: 5

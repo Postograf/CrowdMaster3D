@@ -1,0 +1,20 @@
+[api-updater (non-obsolete-error-filter)] 16.05.2021 3:09:19 : Starting D:/Unityar/2020.2.0f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1024,7242ms
+moved types parse time: 159ms
+candidates parse time : 1ms
+C# parse time         : 867ms
+candidates check time : 72ms
+console write time    : 18ms
+
+[api-updater (non-obsolete-error-filter)] 17.05.2021 17:11:16 : Starting D:/Unityar/2020.2.0f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1875,4213ms
+moved types parse time: 358ms
+candidates parse time : 63ms
+C# parse time         : 937ms
+candidates check time : 69ms
+console write time    : 21ms
+
